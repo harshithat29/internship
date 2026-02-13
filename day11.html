@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+
+    <style>
+        body {
+            background-color: #ffe6cc;
+            font-family: Arial, sans-serif;
+        }
+
+        .outer {
+            width: 600px;
+            background-color: skyblue;
+            padding: 20px;
+        }
+
+        .inner {
+            width: 450px;
+            border: 1px solid black;
+            padding: 15px;
+            margin: 30px 0;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        figure {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Book your tickets now!</h1>
+    </header>
+
+    <main>
+
+        <div class="outer">
+
+            <!-- DESTINATION LIST -->
+            <section>
+                <ol>
+                    <li>Delhi</li>
+                    <li>Mumbai</li>
+                    <li>Bangalore</li>
+                    <li>Hyderabad</li>
+                    <li>Chennai</li>
+                </ol>
+            </section>
+
+            <!-- PASSENGER FORM -->
+            <div class="inner">
+                <form>
+                    <label>Passenger Name:</label><br>
+                    <input type="text"><br><br>
+
+                    <label>Passenger Email:</label><br>
+                    <input type="email"><br><br>
+
+                    <label>Password:</label><br>
+                    <input type="password"><br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- FIRST IMAGE -->
+            <figure>
+                <img src="travel-logo.jpg" alt="Travel Booking Logo" width="120">
+                <figcaption>...fly your dreams!!</figcaption>
+            </figure>
+
+            <!-- SECOND IMAGE -->
+            <figure>
+                <img src="air-booking.jpg" alt="Airplane Image" width="120">
+                <figcaption>...many destinations, your source!!</figcaption>
+            </figure>
+
+            <!-- SUMMER OFFERS -->
+            <details>
+                <summary>Summer offers!!!</summary>
+                <p>
+                    Please watch this section to avail best holiday packages and discounts!!!
+                </p>
+            </details>
+
+            <br>
+
+            <!-- INSURANCE SECTION -->
+            <details>
+                <summary>Insurance</summary>
+                <input type="radio" name="ins"> I want the insurance <br>
+                <input type="radio" name="ins"> I do not wish to take the insurance
+            </details>
+
+            <br>
+
+            <!-- HOTELS AND CAB BOOKING -->
+            <dl>
+                <dt>Hotels booking</dt>
+                <dd>Taj</dd>
+
+                <dt>Cab booking</dt>
+                <dd>Ola</dd>
+                <dd>Uber</dd>
+                <dd>Rapido</dd>
+            </dl>
+
+            <!-- DESCRIPTION -->
+            <section>
+                <p class="center">
+                    Book and manage flights on the go. Jet off on app-exclusive fares.
+                    Enjoy unlimited access to digital content.
+                    Travel seamlessly with the SingaporeAir mobile app now.
+                </p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>Contact Us!</h3>
+    </footer>
+
+</body>
+
+</html>
